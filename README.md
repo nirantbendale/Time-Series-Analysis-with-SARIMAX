@@ -1,4 +1,4 @@
-# Paper Industry Time Series Analysis and Forecasting
+# Time Series Analysis and Forecasting
 
 This repository contains code for analyzing and forecasting trends on variables variables using time series analysis methods. The project processes a dataset across different countries and locations, performs exploratory data analysis, and builds SARIMAX forecasting models.
 
