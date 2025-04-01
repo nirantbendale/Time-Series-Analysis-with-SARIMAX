@@ -2,6 +2,8 @@
 
 This repository contains code for analyzing and forecasting trends on variables variables using time series analysis methods. The project processes a dataset across different countries and locations, performs exploratory data analysis, and builds SARIMAX forecasting models.
 
+![time-series-london](time-series-london.png)
+
 ## Project Overview
 
 The analysis is structured in three main steps:
@@ -56,12 +58,18 @@ The project includes multiple visualizations:
 - Pairwise relationship visualization of numeric columns
 - Time-series visualization of paper prices by country
 
+![seasonal](seasonal.png)
+
+
 ### 3. Forecasting Models
 
 Two types of forecasting approaches are implemented:
 
 - **Univariate Forecasting**: SARIMAX models for individual variables with options for global or country/location-specific forecasts
 - **Multivariate Forecasting**: SARIMAX models using exogenous variables (Variable1, Variable2) to predict Variable8, with location-specific models and visualization
+
+![time-series-all](time-series-all.png)
+
 
 ## Usage
 
